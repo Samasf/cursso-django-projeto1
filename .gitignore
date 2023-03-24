@@ -1,2 +1,3 @@
 venv
 anotaçoes.txt
+.mypy_cache
