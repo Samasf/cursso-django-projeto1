@@ -125,6 +125,11 @@ STATICFILES_DIRS = [
     BASE_DIR / 'base_static', BASE_DIR / 'base_templates'
 ]
 
+# SAUVAR AS IMAGENS DO BD NESSA PASTA ABAIXO
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = BASE_DIR/'media'
+
 STATIC_ROOT = BASE_DIR / 'static'
 
 # Default primary key field type
